@@ -122,7 +122,7 @@ public class Intro extends Activity {
 	
 	/*writeFile 로 생성된 파일을 감지하여 값이 있다면 loginActivity를 건너뛰고 바로 FormatActivity로 intent 시킨다.*/
 	private String readFile(){
-		 String Path = "/data/data/eni.project.ebookmaker/files/cash.properties";	
+		 String Path = "/data/data/com.project.make/files/cash.properties";	
 		 File path = new File(Path);
 		 String m_result="";
 		try{
